@@ -1,0 +1,57 @@
+.navigation {
+  background: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px;
+
+  &-menu {
+    align-items: center;
+    display: flex;
+
+    a {
+      color: $black;
+
+      & + a {
+        margin-left: 32px;
+      }
+    }
+  }
+
+  &-actions {
+    align-items: center;
+    display: flex;
+
+    a {
+      color: $black;
+
+      & + a {
+        margin-left: 32px;
+      }
+    }
+
+    .search {
+      background: $white;
+      border: 1px solid $grey;
+      border-radius: 24px;
+      display: flex;
+      height: 40px;
+      margin-right: 32px;
+      overflow: hidden;
+      padding: 0 16px;
+      width: 240px;
+
+      input {
+        flex: 1;
+
+        &::placeholder {
+          color: red;
+        }
+      }
+
+      button {
+        background: transparent;
+        margin-left: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.lista {
+  align-items: center;
+  background: $grey;
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+
+  p {
+    align-items: center;
+    display: flex;
+
+    img {
+      margin-left: 48px;
+    }
+  }
+
+  ul {
+    align-items: center;
+    display: flex;
+    margin-left: 48px;
+
+    li {
+      & + li {
+        margin-left: 20px;
+      }
+    }
+  }
+}

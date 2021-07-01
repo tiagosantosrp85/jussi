@@ -1,0 +1,56 @@
+.newslater {
+  background-color: $black;
+  padding: 136px 0;
+
+  h1 {
+    color: $white;
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0 auto;
+    max-width: 560px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .email {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 24px;
+    min-width: 320px;
+    text-align: center;
+    border-bottom: solid 1px;
+    color: $primary;
+    max-width: 500px;
+
+    input {
+      background-color: $black;
+      caret-color: $primary;
+      color: $white;
+      font-family: Barlow;
+      font-size: 16px;
+      font-weight: 500;
+      height: 24px;
+      line-height: 24px;
+      flex: 1;
+
+      &::placeholder {
+        color: $white;
+      }
+    }
+
+    button {
+      background-color: $black;
+      color: $primary;
+      font-family: Barlow;
+      font-weight: bold;
+      font-size: 16px;
+      height: 40px;
+      line-height: 40px;
+      text-transform: uppercase;
+    }
+  }
+}

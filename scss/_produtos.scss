@@ -1,0 +1,32 @@
+.produtos {
+  background: $white;
+  padding: 56px 0;
+
+  .title {
+    color: $black;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+
+    &::before {
+      content: "//";
+      color: $primary;
+      margin-right: 4px;
+    }
+  }
+
+  img {
+    height: 40px;
+    width: 31px;
+  }
+
+  h1 {
+    color: $black;
+    font-family: Barlow;
+    font-size: 32px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+}

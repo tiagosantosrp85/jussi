@@ -1,0 +1,38 @@
+.plataforma {
+  background-color: $secondary;
+  padding: 136px 0;
+
+  h1 {
+    color: $white;
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    max-width: 676px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $white;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  a {
+    color: $white;
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 24px;
+    display: table;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+}
